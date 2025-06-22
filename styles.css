@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+  color: goldenrod;
+  text-align: center;
+}
+
+#btn {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+}
+
+.activo {
+  border: 2px solid red;
+}
+
+.nuevo {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
