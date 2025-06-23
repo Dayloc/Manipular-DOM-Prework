@@ -10,19 +10,20 @@ const imagen = document.getElementById('miImagen');
 
 // ✅ 2. Cambiar contenido
 titulo.textContent = "Hola Grupo";  // cambia texto
-caja.innerHTML = "<strong>Contenido con HTML</strong>";  // cambia HTML interno
+caja.innerHTML = "<p><strong>Contenido con HTML</strong>, asi de esta manera podemos agregar diferentes elementos</p>";  // cambia HTML interno
 
 
 
 // ✅ 3. Leer y cambiar atributos
 console.log(imagen.src);
-imagen.src = "https://th.bing.com/th/id/OIP.381vgBycGLymAyZXPk9yaAHaEJ?rs=1&pid=ImgDetMain&cb=idpwebpc2";
+imagen.src = "https://img.freepik.com/fotos-premium/mujer-cyborg-o-robot-ia-arrodillo-plataforma-futurista-ciberespacio-mujer-robot-cara-3d-ilustracion_76964-5192.jpg";
 
 
 
 // ✅ 4. Cambiar estilos directos
 titulo.style.color = "yellow";
-caja.style.border = "2px dashed white";
+
+
 
 // ✅ 5. Manipular clases
 caja.classList.add('activo'); // añade clase

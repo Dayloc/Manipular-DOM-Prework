@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background: linear-gradient(90deg, rgb(0, 47, 100), blue, rgb(144, 238, 238));
   color: goldenrod;
   text-align: center;
 }
@@ -8,15 +8,36 @@ body {
   background-color: blue;
   color: white;
   border-radius: 5px;
+  -webkit-box-reflect: below 0px
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.941), transparent);
+
 }
 
 .activo {
-  border: 2px solid red;
+  border: 2px solid rgba(211, 14, 198, 0.619);
+  border-radius: 5px;
+  margin: 20px;
 }
 
 .nuevo {
-  background-color: green;
+  background: linear-gradient(90deg, rgb(144, 238, 238), blue, rgb(0, 47, 100));
+  border-radius: 5px;
   color: white;
   padding: 10px;
-  margin: 10px;
+  margin:100px;
+}
+img {
+  -webkit-box-reflect: below 0px
+    linear-gradient(to bottom, rgba(5, 114, 255, 0.416), transparent);
+    box-shadow: 0px 0px 20px rgba(130, 130, 130, 0.821);
+    width: 100px;
+
+
+}
+.cja-img{
+  display: flex;
+  padding: 1px;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
 }
