@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(90deg, rgb(0, 47, 100), blue, rgb(144, 238, 238));
+  background: linear-gradient(90deg, rgb(37, 46, 56), rgb(59, 59, 85), rgb(144, 238, 238));
   color: goldenrod;
   text-align: center;
 }
@@ -14,9 +14,9 @@ body {
 }
 
 .activo {
-  border: 2px solid rgba(211, 14, 198, 0.619);
+  border: 2px solid rgba(244, 171, 239, 0.807);
   border-radius: 5px;
-  margin: 20px;
+  margin: 50px;
 }
 
 .nuevo {
@@ -27,7 +27,7 @@ body {
   margin:100px;
 }
 img {
-  -webkit-box-reflect: below 0px
+    -webkit-box-reflect: below 0px
     linear-gradient(to bottom, rgba(5, 114, 255, 0.416), transparent);
     box-shadow: 0px 0px 20px rgba(130, 130, 130, 0.821);
     width: 100px;
@@ -40,4 +40,7 @@ img {
   box-sizing: border-box;
   width: 100px;
   height: 100px;
+}
+.caja{
+  color: rgb(249, 229, 112);
 }

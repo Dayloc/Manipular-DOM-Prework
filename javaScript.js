@@ -1,3 +1,5 @@
+
+
 console.log("Hola mundo desde javascript.js");
 
 // ✅ 1. Seleccionar elementos
@@ -6,17 +8,22 @@ const button = document.querySelector('#btn');
 const caja = document.querySelector('.caja');
 const imagen = document.getElementById('miImagen');
 
-
+if(titulo.textContent==="Hola Mundo"){
+  titulo.textContent = "Hola Grupo";
+}else{
+  titulo.textContent = "Hola Mundo"
+}
 
 // ✅ 2. Cambiar contenido
-titulo.textContent = "Hola Grupo";  // cambia texto
+  // cambia texto
 caja.innerHTML = "<p><strong>Contenido con HTML</strong>, asi de esta manera podemos agregar diferentes elementos</p>";  // cambia HTML interno
 
 
 
 // ✅ 3. Leer y cambiar atributos
 console.log(imagen.src);
-imagen.src = "https://img.freepik.com/fotos-premium/mujer-cyborg-o-robot-ia-arrodillo-plataforma-futurista-ciberespacio-mujer-robot-cara-3d-ilustracion_76964-5192.jpg";
+
+//imagen.src = "https://img.freepik.com/fotos-premium/mujer-cyborg-o-robot-ia-arrodillo-plataforma-futurista-ciberespacio-mujer-robot-cara-3d-ilustracion_76964-5192.jpg";
 
 
 
