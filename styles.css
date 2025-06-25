@@ -8,7 +8,7 @@ body {
   background-color: blue;
   color: white;
   border-radius: 5px;
-  -webkit-box-reflect: below 0px
+  -webkit-box-reflect: below 2px
     linear-gradient(to bottom, rgba(255, 255, 255, 0.941), transparent);
 
 }

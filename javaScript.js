@@ -2,12 +2,19 @@
 
 console.log("Hola mundo desde javascript.js");
 
+
+
 // ✅ 1. Seleccionar elementos
 const titulo = document.getElementById('titulo');
+
 const button = document.querySelector('#btn');
+
 const caja = document.querySelector('.caja');
+
 const imagen = document.getElementById('miImagen');
 
+
+//AQUI CAMBIO EL TITULO
 if(titulo.textContent==="Hola Mundo"){
   titulo.textContent = "Hola Grupo";
 }else{
@@ -32,10 +39,10 @@ titulo.style.color = "yellow";
 
 
 
-// ✅ 5. Manipular clases
+ // ✅ 5. Manipular clases
 caja.classList.add('activo'); // añade clase
 caja.classList.toggle('activo'); // la quita (porque ya estaba)
-caja.classList.toggle('activo'); // la vuelve a poner
+caja.classList.toggle('activo'); // la vuelve a poner 
 
 // ✅ 6. Crear y agregar elementos nuevos
 const nuevoParrafo = document.createElement('p');
@@ -43,12 +50,17 @@ nuevoParrafo.textContent = "Soy un párrafo creado con JS";
 nuevoParrafo.classList.add('nuevo');
 document.body.appendChild(nuevoParrafo);
 
+
+
 // ✅ 7. Eliminar elementos después de 5 segundos
 /* setTimeout(() => {
   nuevoParrafo.remove();
   console.log("Párrafo eliminado");
 }, 5000);
  */
+
+
+
 // ✅ 8. Escuchar eventos
 button.addEventListener('click', () => {
   alert("Me diste un click");
